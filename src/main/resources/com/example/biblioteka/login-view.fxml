@@ -31,12 +31,12 @@
             </Label>
             <TextField fx:id="username" layoutX="313.0" layoutY="136.0" prefHeight="36.0" prefWidth="175.0" />
             <PasswordField fx:id="password" layoutX="313.0" layoutY="201.0" prefHeight="36.0" prefWidth="175.0" />
-            <Button fx:id="login" layoutX="142.0" layoutY="294.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="122.0" text="Prisijungti">
+            <Button fx:id="login" layoutX="142.0" layoutY="294.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="53.0" prefWidth="122.0" text="Prisijungti">
                <font>
                   <Font name="Cambria" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="register" layoutX="332.0" layoutY="294.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="122.0" text="Registruotis">
+            <Button fx:id="register" layoutX="332.0" layoutY="294.0" mnemonicParsing="false" onAction="#onRegisterButtonClick" prefHeight="53.0" prefWidth="122.0" text="Registruotis">
                <font>
                   <Font name="Cambria" size="12.0" />
                </font>
