@@ -83,7 +83,7 @@ public class LoginController {
         Parent root = FXMLLoader.load(MainApplication.class.getResource("userDashboard-view.fxml"));
         Stage registerStage = new Stage();
         registerStage.setTitle("Vartotojo langas");
-        registerStage.setScene(new Scene(root, 1100, 700));
+        registerStage.setScene(new Scene(root, 1100, 400));
         registerStage.show();
         ((Node) (event.getSource())).getScene().getWindow().hide();
     }
